@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johan Guarin - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">&lt;Dev /&gt;</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <div class="nav-social">
+                <a href="https://github.com" class="social-btn" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" class="social-btn" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi I'm Johan Guarin
+                    </h1>
+                    <p class="hero-description">
+                        Full Stack Developer. 
+                        Passionate about creating modern, responsive web applications and mobile apps.
+                        I specialize in building scalable, user-friendly solutions using the latest technologies.
+                    </p>
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bucaramanga, Colombia</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-bg"></div>
+                        <img src="/resources/profilepic.jpg" alt="Johan Guarin" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    My most recent work and projects
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/resources/locfinder.png">
+                        <div class="project-overlay">
+                            <button class="btn btn-small">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                            <button class="btn btn-small">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">IP Location Finder</h3>
+                            <div class="project-stats">
+                                <span class="stat">
+                                    <i class="fas fa-star"></i>
+                                    0
+                                </span>
+                                <span class="stat">
+                                    <i class="fas fa-code-branch"></i>
+                                    0
+                                </span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A modern, responsive web application that allows users to find geographical information based on IP addresses
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/resources/juegocanpu.png" alt="Task Management App">
+                        <div class="project-overlay">
+                            <button class="btn btn-small">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                            <button class="btn btn-small">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">JuegoCampus - Character Generator</h3>
+                            <div class="project-stats">
+                                <span class="stat">
+                                    <i class="fas fa-star"></i>
+                                    0
+                                </span>
+                                <span class="stat">
+                                    <i class="fas fa-code-branch"></i>
+                                    0
+                                </span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced web platform for creating and filtering fantasy characters, inspired by the world of Dungeons & Dragons
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <button class="btn btn-small">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                            <button class="btn btn-small">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <div class="project-stats">
+                                <span class="stat">
+                                    <i class="fas fa-star"></i>
+                                    28
+                                </span>
+                                <span class="stat">
+                                    <i class="fas fa-code-branch"></i>
+                                    15
+                                </span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Weather dashboard with interactive visualizations and detailed forecasts
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-description">
+                    Technologies and tools I work with on a daily basis
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="skill-title">Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Vue.js</span>
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Express</span>
+                        <span class="skill-item">FastAPI</span>
+                        <span class="skill-item">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Vercel</span>
+                        <span class="skill-item">Figma</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Mobile</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">React Native</span>
+                        <span class="skill-item">Flutter</span>
+                        <span class="skill-item">Expo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Connect with me</h2>
+                <p class="section-description">
+                    Something in mind? Let's get in touch! I'm always open to be part of your vision.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>johanguarin277@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+57 3143972303</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Bucaramanga, Colombia</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/JohanAndreyGuarinReatiga" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/johan-andrey-guarin-reatiga-5465461aa/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
