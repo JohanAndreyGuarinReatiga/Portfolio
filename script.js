@@ -46,9 +46,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       demo: "https://proyecto-java-script-guarin-johan.vercel.app/index.html",
     },
     2: {
-      // Weather Dashboard
-      github: "https://github.com/JohanAndreyGuarinReatiga",
-      demo: "",
+      // forum
+      github: "https://github.com/hely15/Vexo-Foro",
+      demo: "https://vexo-foro.vercel.app/",
     },
   }
   
